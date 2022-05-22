@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return '<h1> Carl Louie Zarate and My Personal Information </h1>
+    return '<h1> Ralph Raymond and My Personal Information </h1>
     <h2> Studies at UST Angelicum College </h2>
-    <h2> 21 years old </h2>
+    <h2> 25 years old </h2>
     <h2> Information Technology</h2>
-    <h2> October 19, 2000 </h2>';
+    <h2> March 19, 1997 </h2>';
 });
 
 Route::get('/news/{mm}/{dd}/{yyyy}', function ($mm, $dd, $yyyy) {
